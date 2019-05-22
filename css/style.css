@@ -13,9 +13,6 @@
   font-weight: bold;
   font-style: normal;
 }
-.feedback-slider {
-  height: 525px;
-}
 body {
   font-family: 'ProximaNova_reg', sans-serif;
 }
@@ -338,12 +335,6 @@ section {
 }
 .feedback-slider-btn img {
   width: 50%;
-}
-.feedback-slider_item {
-  border: 1px solid red;
-}
-.feedback-slider_item .fotorama {
-  border: 2px solid blue;
 }
 .feedback-form {
   margin-top: 5rem;
