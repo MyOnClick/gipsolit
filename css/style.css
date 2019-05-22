@@ -338,7 +338,7 @@ section {
 }
 .feedback-form {
   margin-top: 5rem;
-  padding: 4rem 10rem;
+  padding: 4rem 6rem;
   background-color: #ffffff;
   text-align: center;
 }
@@ -348,6 +348,7 @@ section {
 }
 .feedback-form label {
   transform: translate(-50%, 8px);
+  margin-bottom: 2rem;
 }
 .feedback-btn {
   max-width: 30rem;
@@ -727,17 +728,22 @@ footer {
   .wrap-block {
     text-align: center;
   }
-  .feedback-prev-btn {
-    left: 0;
-  }
-  .feedback-next-btn {
-    right: 0;
-  }
   .scheme {
     background: none;
     text-align: center;
   }
   .scheme-block {
     min-height: 20rem;
+  }
+}
+@media (max-width: 767px) {
+  .feedback-slider {
+    padding: 5rem 4rem;
+  }
+  .feedback-form {
+    padding: 4rem 2rem;
+  }
+  .feedback-form .form-input {
+    margin: 4rem 0;
   }
 }

@@ -411,7 +411,7 @@ section {
  	// офромления обратной связи 
  	&-form {
  		margin-top: 5rem;
- 		padding: 4rem 10rem;
+ 		padding: 4rem 6rem;
  		background-color:@light;
 		text-align: center;
 		h3 {
@@ -420,6 +420,7 @@ section {
 		}
 		label {
 			transform: translate(-50%, 8px);
+			margin-bottom: 2rem;
 			 }
  	}
 	&-btn {
@@ -871,17 +872,6 @@ footer {
 		text-align: center;
 		
 	}
-
-
-	.feedback {
-		&-prev-btn {
-			left: 0;
-	}
-		&-next-btn {
-		right: 0
-	}
-	}          
-
 	.scheme {
 		background:none;
 		text-align: center;
@@ -889,5 +879,23 @@ footer {
 			min-height: 20rem;
 	}
 	} 
+	}
+@media (max-width: 767px) {
+		.feedback {
+		&-slider {
+			padding: 5rem 4rem;
+		}
+		&-form {
+			padding: 4rem 2rem;
+			// border:1px solid red;
+			.form-input {
+				margin: 4rem 0;
+			}
+		}
+
+
+	}
+	
+
 	}
 
