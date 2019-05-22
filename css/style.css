@@ -327,13 +327,6 @@ section {
 .feedback-slider .media {
   margin-top: 3rem;
 }
-.feedback-slider h4 {
-  font-size: 1.4rem;
-  font-family: 'ProximaNova_bold', sans-serif;
-}
-.feedback-slider p {
-  font-size: 1.6rem;
-}
 .feedback-slider-btn {
   position: absolute;
   top: 50%;
@@ -345,6 +338,12 @@ section {
 }
 .feedback-slider-btn img {
   width: 50%;
+}
+.feedback-slider_item {
+  border: 1px solid red;
+}
+.feedback-slider_item .fotorama {
+  border: 2px solid blue;
 }
 .feedback-form {
   margin-top: 5rem;
